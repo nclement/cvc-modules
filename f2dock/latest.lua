@@ -33,3 +33,4 @@ append_path("PATH",pathJoin(f2dock_dir,"Release/bin"))
 append_path("PATH",pathJoin(script_dir,"docking"))
 
 load("gcc/4.7.1")
+load("f2dgen")
