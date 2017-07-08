@@ -10,6 +10,6 @@ whatis("Keywords: cuda, cudnn, cvc")
 whatis("URL: https://developer.nvidia.com/cudnn")
 whatis("Description: Acceleration library for deep neural networks")
 
-load("cuda/8.0")
+load("cuda/8.0.61")
 
 prepend_path( "LD_LIBRARY_PATH", "/org/centers/cvc/software/c7/libraries/cudnn/cuda-8.0/cudnn-5.0/lib64")
