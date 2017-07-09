@@ -14,5 +14,5 @@ whatis("Description: nVidia GPU computation framework")
 prepend_path( "PATH","/org/centers/cvc/software/c7/libraries/cuda/cuda-8.0.61_375.26/bin")
 prepend_path( "MANPATH","/org/centers/cvc/software/c7/libraries/cuda/cuda-8.0.61_375.26/doc/man")
 prepend_path( "LD_LIBRARY_PATH","/org/centers/cvc/software/c7/libraries/cuda/cuda-8.0.61_375.26/lib64")
+setenv( "CUDA_HOME", "/org/centers/cvc/software/c7/libraries/cuda/cuda-8.0.61_375.26/")
 setenv( "CUDA_BIN_PATH", "/org/centers/cvc/software/c7/libraries/cuda/cuda-8.0.61_375.26/bin")
-
