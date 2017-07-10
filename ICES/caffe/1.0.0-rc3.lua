@@ -24,5 +24,7 @@ append_path( "PYTHONPATH", "/org/centers/cvc/software/c7/deep-learning/caffe/pyc
 
 conflict("anaconda")
 
-LmodMessage("Caffe was compiled for use on neothalamus. It may work on other")
-LmodMessage("systems with nVidia cards and CUDA, but this is not guaranteed.")
+if mode() == "load" then
+  LmodMessage("Caffe was compiled for use on neothalamus. It may work on other")
+  LmodMessage("systems with nVidia cards and CUDA, but this is not guaranteed.")
+end

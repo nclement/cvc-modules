@@ -19,7 +19,7 @@ whatis("Description: A New Lightweight, Modular, and Scalable Deep Learning Fram
 
 hostname = capture("hostname")
 correcthostname = "neothalamus.ices.utexas.edu\n"
-if hostname ~= correcthostname then
+if hostname ~= correcthostname and mode() == "load" then
     LmodError([[
 
 ================================
