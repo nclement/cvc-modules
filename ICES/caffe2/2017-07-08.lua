@@ -33,7 +33,9 @@ if hostname ~= correcthostname and mode() == "load" then
 ]], "\n  The hostname I detected was: ",hostname,
     "\n  The hostname I was expecting was: ", correcthostname)
 else
-  LmodMessage("Running on neothalamus. Loading module...")
+  if mode() == "load" then
+  LmodMessage("Detected host neothalamus. Loading module...")
+  end
 end
 
 
